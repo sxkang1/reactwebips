@@ -1,0 +1,449 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff !important;
+}
+
+body,
+html {
+  background-color: #fff !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.headerBox {
+  background-color: #001529;
+  height: calc(3vh) !important;
+  line-height: calc(3vh);
+  color: #ffffff;
+  font-size: 20px;
+}
+.headerBoxOne {
+  padding: 0 20px;
+}
+.headers {
+  color: #ffffff;
+
+  text-align: center;
+}
+.contents {
+  height: calc(81vh) !important;
+  position: relative;
+}
+.buttonsRight {
+  text-align: right;
+  background: #999;
+}
+
+.bootoms {
+  background-color: #001529;
+  /* height: calc(20vh) !important; */
+  padding: 2px 30px;
+  /* position: fixed;
+  bottom: 0; */
+}
+.bootomsBox {
+  text-align: center;
+  line-height: calc(20vh);
+}
+
+.carouselPosi {
+  position: absolute;
+  width: 60%;
+  cursor: move;
+  left: 20%;
+}
+
+.radiu {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  border: 2px solid palegreen;
+  color: palegreen;
+  font-size: 20px;
+}
+
+.prevs {
+  position: absolute;
+  top: calc(31vh);
+  left: 80px;
+  font-size: 50px;
+  color: #1890ff !important;
+}
+.next {
+  position: absolute;
+  top: calc(31vh);
+  right: 80px;
+  font-size: 50px;
+  color: #1890ff !important;
+}
+
+.imgageSize {
+  margin: 0 auto;
+  width: 50%;
+  height: calc(60vh);
+}
+.nav {
+  height: 200px;
+  width: 200px;
+}
+
+.example {
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  position: absolute;
+  font-size: 80px;
+  line-height: 783px;
+  background: #fff;
+  opacity: 0.7;
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 30px 50px;
+}
+
+/* For demo */
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: calc(64.9vh);
+  line-height: calc(64.9vh);
+  background: #999;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+.ant-slider-div {
+  width: 60%;
+}
+
+.butSize {
+  width: 100px;
+}
+
+.ant-btn.active,
+.ant-btn:active,
+.ant-btn:focus,
+.ant-btn:hover {
+  text-decoration: none;
+  background-size: 100% 100% !important;
+  background-color: transparent !important;
+  background-repeat: no-repeat !important;
+}
+
+.ant-btn:focus,
+.ant-btn:hover {
+  background-size: 100% 100%;
+  background-repeat: no-repeat !important;
+}
+
+.btn {
+  width: 60px;
+  height: 60px !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat !important;
+}
+
+.btn:hover {
+  border: 4px solid #40a9ff !important;
+}
+
+.btn-Reverse {
+  background-image: url(../../asserts/images/Inverse.bmp) !important;
+}
+
+.btn-Emboss {
+  background-image: url(../../asserts/images/PavonineD.bmp) !important;
+}
+
+.btn-gray {
+  background-image: url(../../asserts/images/GrayD.bmp) !important;
+}
+
+.btn-mist {
+  background-image: url(../../asserts/images/MistD.bmp) !important;
+}
+
+.btn-oasis {
+  background-image: url(../../asserts/images/OasisH.bmp) !important;
+}
+
+.btn-settingsun {
+  background-image: url(../../asserts/images/SettingSun.bmp) !important;
+}
+
+.btn-grape {
+  background-image: url(../../asserts/images/Grape.bmp) !important;
+}
+.btn-ocean {
+  background-image: url(../../asserts/images/Ocean.bmp) !important;
+}
+.btn-pavonine {
+  background-image: url(../../asserts/images/PavonineH.bmp) !important;
+}
+.btn-histogram {
+  width: 60px !important;
+  height: 60px !important;
+  background-image: url(../../asserts/images/Histogram.bmp) !important;
+}
+
+.btn-PseudoColor {
+  width: 60px !important;
+  height: 60px !important;
+  background-image: url(../../asserts/images/Mist.bmp) !important;
+}
+
+.btn-Sharpness {
+  background-image: url(../../asserts/images/ColorizeAllD.bmp) !important;
+}
+.btn-Revert {
+  background-image: url(../../asserts/images/recover.bmp) !important;
+}
+
+.btn-EdgeEnhance1 {
+  background-image: url(../../asserts/images/EdgeEnhance1.bmp) !important;
+}
+
+.btn-EdgeEnhance2 {
+  background-image: url(../../asserts/images/EdgeEnhance2.bmp) !important;
+}
+
+.btn-EdgeEnhance3 {
+  background-image: url(../../asserts/images/EdgeEnhance3.bmp) !important;
+}
+
+.btn-submint {
+  background-image: url(../../asserts/images/btnSubmit.jpg) !important;
+}
+
+.btn-Smooth1 {
+  background-image: url(../../asserts/images/Smooth1.bmp) !important;
+}
+
+.btn-Smooth2 {
+  background-image: url(../../asserts/images/Smooth2.bmp) !important;
+}
+
+.btn-Smooth3 {
+  background-image: url(../../asserts/images/Smooth3.bmp) !important;
+}
+
+.btn-GrayImage {
+  background-image: url(../../asserts/images/Gray.bmp) !important;
+}
+
+.slide {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-size: 100% 100%;
+  margin-top: 8px;
+}
+
+.BrightnessBgm-text {
+  display: inline-block;
+  color: #fff;
+}
+
+.BrightnessBgm-icon {
+  background-image: url(../../asserts/images/BrightnessAdjust.bmp);
+}
+
+.Contrast-icon {
+  background-image: url(../../asserts/images/Contrast.jpg);
+}
+
+.tab-sty {
+  height: calc(50vh);
+}
+
+/* .ant-form {
+  padding: 10px !important;
+} */
+.ant-card-body {
+  padding: 20px !important;
+  zoom: 1;
+}
+.ant-table-tbody > tr > td,
+.ant-table-thead > tr > th {
+  padding: 11px !important;
+  overflow-wrap: break-word;
+}
+.searchFrom {
+  /* border: 1px solid red; */
+  height: 47px;
+}
+
+.topHeader {
+  text-align: center;
+  background: transparent !important;
+  height: calc(10vh);
+  font-weight: 900;
+}
+
+.Content-sty {
+  /* height: calc(90vh); */
+  background-color: #fff !important;
+}
+
+.leftBox {
+  flex: 0 0 200px;
+  max-width: 500px !important;
+  min-width: 350px !important;
+  width: 350px !important;
+  /* height: calc(100vh) !important; */
+}
+/* .ant-card .ant-card-bordered {
+  height: calc(20vh) !important;
+} */
+.ant-card .ant-card-bordered {
+  /* height: calc(80vh) !important; */
+  background: #fff !important;
+  /* border: 1px solid red !important; */
+}
+/* html, body {
+  background-color: #fff !important;  
+} */
+
+.RightBox {
+  height: calc(93.3vh) !important;
+  background-color: #fff !important;
+}
+.divBox {
+  height: calc(100vh) !important;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 700px !important;
+  line-height: 700px !important;
+  background: #999;
+  overflow: hidden;
+  position: relative;
+}
+
+.imageSty {
+  /* max-width: 100%; */
+  max-height: 100%;
+  position: absolute;
+  /* top: 50%;
+  left: 50%; */
+  transform: translate(-50%, -50%);
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+fieldset {
+  padding: 0.35em 0.625em 0.75em !important;
+  margin: 0 2px !important;
+  border: 1px solid silver !important;
+}
+
+legend {
+  padding: 0.5em !important;
+  border: 0 !important;
+  width: auto !important;
+}
+
+.ant-form .ant-form-inline {
+  /* margin-left: 0%; */
+  width: 55% !important;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 135px;
+
+  text-align: left;
+}
+.ant-radio-wrapper {
+  width: 90px;
+}
+
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
+  width: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.editable-cell {
+  position: relative;
+}
+
+.editable-cell-value-wrap {
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 4px 11px;
+}
+
+[data-theme="dark"] .editable-row:hover .editable-cell-value-wrap {
+  border: 1px solid #434343;
+}
+
+.ant-btn-primary:focus,
+.ant-btn-primary:hover {
+  color: #40a9ff !important;
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.ant-slider-div {
+  width: 80%;
+}
+
+.site-form-in-drawer-wrapper {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px 16px;
+  border-top: 1px solid #e9e9e9;
+  background: #fff;
+  text-align: right;
+}
+.ant-drawer-header {
+  position: relative;
+  padding: 16px 21px !important;
+  border-bottom: 1px solid #e8e8e8;
+  border-radius: 4px 4px 0 0;
+}
+
+.ant-drawer-header-child {
+  position: relative;
+  padding: 16px 0 !important;
+  border-bottom: 1px solid #e8e8e8;
+  border-radius: 4px 4px 0 0;
+}
+.ant-drawer-title {
+  margin: 0;
+  color: rgba(0,0,0,.85);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+.positiIcon {
+  position: absolute;
+  right: 0;
+  top: 500px;
+  font-size: 50px;
+  color: red;
+}

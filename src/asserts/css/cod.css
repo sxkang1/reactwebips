@@ -1,0 +1,55 @@
+.foot {
+  border: 1px solid red;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+html {
+  background-color: rgba(239, 241, 244, 1);
+}
+body,
+html {
+  background-color: rgba(239, 241, 244, 1) !important;
+}
+
+.homeBox {
+  display: flex;
+  /* height: calc(100vh); */
+}
+.navBarLeft {
+  width: 200px;
+  background: skyblue;
+}
+.main {
+  flex: 1;
+}
+.ant-tabs-nav-wrap {
+  width: 200px;
+}
+.ant-tabs .ant-tabs-left-bar .ant-tabs-nav,
+.ant-tabs .ant-tabs-right-bar .ant-tabs-nav {
+  width: 100%;
+  /* height: calc(95vh); */
+  /* background: #cccccc; */
+}
+
+.ant-tabs .ant-tabs-left-bar .ant-tabs-tab {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab {
+  background: skyblue !important;
+}
+.ant-tabs-nav .ant-tabs-tab:hover {
+  color: #40a9ff;
+  background: skyblue;
+}
+
+.ant-table-tbody > tr > td, .ant-table-thead > tr > th {
+  padding: 11px !important;
+  font-size: 20px;
+  overflow-wrap: break-word;
+}

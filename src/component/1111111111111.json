@@ -1,0 +1,121 @@
+图片展示接口：
+请求方法：POST
+请求路径：http://ip:port/WebIPS/TaskList? pageSize=&pageNumber=
+返回结果示例：
+{
+    "resultData":{
+“pageSize”:10,
+	“pageNumber”:0,
+	“totoalSize”:5，
+“imageInfo”:
+[
+        {
+            "ScanTime":"2016-07-19 13:45:54",
+            "Xray1Path":"http://ip:port/Image/tempImage/55FAF9DB-0BA4-47CA-95C2-8D8B9557EF9B.jpg",
+            "Manufacturer":"Nuctech"
+        }
+    ]
+},
+    "resultCode":200,
+    "resultDesc":"success"
+}
+报关单页面接口：
+请求方法：POST
+请求路径：http://ip:port/WebIPS/ DetailInfo? ImgId=
+返回结果示例：
+  
+
+
+具体结构：
+{
+    "resultData":{
+        "InspectionSystem":{
+            "Manufacturer":"厂家",
+            "ModelName":"模型名称",
+            "SerialNumber":"流水号",
+            "Country":"国家"
+        },
+        "Target":{
+            "ContainerNum":"集装箱号",
+            "Declaration":{
+                "Consignee":{
+                    "Company":{
+                        "Name":"收货方公司名字",
+                        "Address":{
+                            "Country":"国家",
+                            "State":"省/州",
+                            "City":"城市"
+                        }
+                    },
+                    "Person":{
+                        "FirstName":"收货人名字",
+                        "LastName":"收货人姓氏",
+                        "Address":{
+                            "Country":"国家",
+                            "State":"省/州",
+                            "City":"城市"
+                        }
+                    }
+                },
+                "Shipper":{
+                    "Name":"发货方公司名字",
+                    "Address":{
+                        "Country":"国家",
+                        "State":"省/州",
+                        "City":"城市"
+                    }
+                },
+                "Owner":{
+                    "Company":{
+                        "Name":"发货人公司名字",
+                        "Address":{
+                            "Country":"国家",
+                            "State":"省/州",
+                            "City":"城市"
+                        }
+                    }
+                },
+                "GoodsDescription":{
+                    "HSCode":"HS代码",
+                    "Description":"货物描述"
+                }
+            },
+            "FrontPlateNum":"前车牌号",
+            "RearPlateNum":"后车牌号",
+            "Driver":{
+                "FirstName":"司机名字",
+                "LastName":"司机姓氏",
+                "Address":{
+                    "Country":"国家",
+                    "State":"省/州",
+                    "City":"城市"
+                }
+            },
+            "VehicleType":"车辆类型"
+        },
+        "Analysis":{
+            "Comment":"结论",
+            "TimeStamp":"下结论时间",
+            "Result":"结果"，
+“Suspicion”:”是否有嫌疑”,
+        },
+        "FilePath":{
+            "PDFFilePath":"PDF路径"
+“OutputFile”: [{“URI”: “照片路径”, “Type”: “照片类型”},……](此为数组，可能有零个到多个数据)
+        }
+    },
+    "resultCode":200,
+    "resultDesc":"success"
+}
+
+
+
+
+
+
+
+
+
+
+
+
